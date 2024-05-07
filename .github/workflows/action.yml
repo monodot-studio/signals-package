@@ -1,0 +1,22 @@
+
+name: NPM Publish
+
+on:
+  push:
+    branches: release
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+          registry-url: 'https://upm.monodot.io'
+
+      - name: Publish to Verdaccio
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}

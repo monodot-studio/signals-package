@@ -1,8 +1,8 @@
 {
-	"name": "com.supyrb.signals",
-	"author": "Johannes Deml",
-	"displayName": "Signals ❇",
-	"description": "Signals is a powerful, lightweight messaging system that provides sortable, consumable and pausable signals. Comes with an editor window for easy access to the signals.",
+	"name": "com.monodot.private.signals",
+	"author": "monodot - Forks",
+	"displayName": "monodot - Signals",
+	"description": "Forked from Supyrb, made by Johannes Deml. Signals is a powerful, lightweight messaging system that provides sortable, consumable and pausable signals. Comes with an editor window for easy access to the signals.",
 	"keywords": [
 		"Signal",
 		"Signals",
@@ -12,7 +12,7 @@
 	],
 	"license": "MIT",
 	"category": "Utility",
-	"version": "1.1.0",
+	"version": "1.0.0",
 	"unity": "2018.1",
 	"dependencies": {
 		
