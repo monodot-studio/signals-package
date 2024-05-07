@@ -1,6 +1,10 @@
 {
 	"name": "com.monodot.private.signals",
-	"author": "monodot - Forks",
+	"author": {
+		"name": "monodot - Forks",
+		"email": "info@monodot.io",
+		"url": "https://www.monodot.io/"
+	},
 	"displayName": "monodot - Signals",
 	"description": "Forked from Supyrb, made by Johannes Deml. Signals is a powerful, lightweight messaging system that provides sortable, consumable and pausable signals. Comes with an editor window for easy access to the signals.",
 	"keywords": [
